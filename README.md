@@ -8,7 +8,7 @@ Filter meetings for a particular team member;
 
 Add new meetings;
 
-Deleting button(in procces);
+Delete meetings(in procces);
 
 # Build and run:
 
