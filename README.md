@@ -8,6 +8,8 @@ Filter meetings for a particular team member;
 
 Add new meetings;
 
+Deleting button(in procces);
+
 # Build and run:
 
 To run project run: npm start
