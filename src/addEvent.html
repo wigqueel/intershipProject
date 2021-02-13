@@ -1,0 +1,59 @@
+<html>
+<head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+  <div id = "errorMessage" style ="position: absolute;width: -webkit-fill-available;">  </div>
+  
+    <div style = "padding:20% 5%">
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">Event name : </span>
+        </div>
+        <input id="workName" type="text" class="form-control" placeholder="Working on ..." aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">Participans : </span>
+        </div>
+        <select class="custom-select" id = "users"  >
+
+          </select>    
+    </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">Day : </span>
+        </div>
+        <select class="custom-select"  id = "days">
+
+          </select>    
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">Time : </span>
+        </div>
+        <select class="custom-select"  id = "hours">
+
+          </select>    
+      </div>
+      <div  class="col text-center">
+          
+        <button type="button" id="addButton" class="btn btn-primary btn-lg">Add</button>
+        
+        <button  onclick="location.href='http://127.0.0.1:5500/dist/index.html'" type="button" class="btn btn-danger btn-lg">Cancel</button>
+    </div>   
+</div>   
+      
+      <script src="/src/addEvent.js"> </script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
